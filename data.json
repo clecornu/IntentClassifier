@@ -1,0 +1,235 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey there", "Good morning", "Good afternoon", "Good evening", "Is anyone available?",
+        "Are you there?", "Yo", "Hi there", "Howdy", "Hey", "Greetings", "Hiya", "Hey!", "Good day",
+        "Hi, how are you?", "Hello, how’s it going?", "Hey, how are you?", "Morning!", "Afternoon!", "Evening!",
+        "Hey buddy", "Hey friend", "Hi friend", "Hello friend", "Hi all", "Hello all", "Hey all", "Greetings everyone",
+        "Hey team", "Hi team", "Hello team", "Hey guys", "Hi guys", "Hello guys", "Hey there!", "Hi there!", "Hello there!",
+        "Yo there", "Hi everyone", "Hello everyone", "Hey everyone", "Good to see you", "Nice to see you", "Howdy partner",
+        "Sup?", "What’s up?", "What’s going on?", "How’s everything?", "How’s it going?", "How are you doing?", "How are you?",
+        "Hi friend!", "Hey friend!", "Hello friend!", "Greetings friend", "Hey pal", "Hi pal", "Hello pal", "Hi buddy!",
+        "Hey buddy!", "Hello buddy!", "Yo buddy", "Yo friend", "Morning all", "Afternoon all", "Evening all",
+        "Hi folks", "Hello folks", "Hey folks", "Hi everyone!", "Hello everyone!", "Hey everyone!", "Greetings all",
+        "Hey team!", "Hi team!", "Hello team!", "Hey y’all", "Hi y’all", "Hello y’all", "Hi there everyone", "Hello there everyone",
+        "Hey there everyone", "Hi, good to see you", "Hello, good to see you", "Hey, good to see you",
+        "Hi, howdy", "Hello, howdy", "Hey, howdy", "Yo, what’s up?", "Hey, sup?", "Hi, sup?", "Hello, sup?",
+        "Greetings, friend", "Hi, friend", "Hello, friend", "Hey, friend", "Yo, friend", "Heyo", "Hiyo", "Hello-hello",
+        "Hi!", "Hey!", "Hello!", "Good day!", "Heyo there!", "Yo!", "Hi hi", "Howdy!", "Hi there friend!", "Hello buddy!",
+        "Hi everyone here", "Hey all!", "Hello all!", "Hi all!", "Greetings all!", "Yo all!", "Hiya all!"
+      ],
+      "responses": [
+        "Hello! How can I help you with your pool today?",
+        "Hi there! Need help scheduling a cleaning or maintenance?",
+        "Hey! What can I do for your pool today?"
+      ]
+    },
+    {
+      "tag": "service",
+      "patterns": [
+        "I need my pool cleaned", "Do you offer weekly maintenance?", "Can you vacuum my pool?", "What services do you provide?",
+        "Do you handle chemical balancing?", "Can someone come check my pump?", "I want a pool cleaning", "Schedule pool maintenance",
+        "Pool service request", "Clean my pool", "Maintenance visit", "Pump check", "Filter cleaning", "Chemical service",
+        "Pool vacuum needed", "Regular cleaning", "Weekly cleaning", "Service my pool", "Check my pump", "Inspect pool system",
+        "Pool inspection", "Water test", "Chemical check", "Equipment check", "Filter service", "Vacuum needed", "Pool scrub",
+        "Deep clean my pool", "Clean pool surface", "Pool service needed", "I need help with my pool", "Pool maintenance required",
+        "Clean pool filter", "Water clarity service", "Skim the pool", "Vacuum required", "Pump maintenance", "Check water level",
+        "Inspect heater", "Pool chemical adjustment", "Balance chemicals", "Remove debris", "Weekly pool service",
+        "Monthly pool service", "Clean pool walls", "Clean pool bottom", "Pool debris removal", "Pool equipment check",
+        "Pool cleaning schedule", "Book pool service", "Arrange pool cleaning", "I want pool maintenance", "Schedule pool checkup",
+        "Clean the pool today", "Check chemical levels", "Service pool pump", "Check filter system", "Pool water analysis",
+        "Deep cleaning pool", "Inspect pool heater", "Check water flow", "Chemical balancing service", "Vacuuming service",
+        "Pool surface cleaning", "Clean pool tiles", "Pool algae removal", "Pool debris cleanup", "Pump inspection",
+        "Filter maintenance", "Inspect pool equipment", "Water quality check", "Pool maintenance request",
+        "Schedule pool cleaning visit", "Clean pool promptly", "Pool maintenance today", "Pool service ASAP",
+        "Inspect pool system parts", "Chemical testing service", "Skim leaves from pool", "Pool vacuuming required",
+        "Check pool pump operation", "Filter cleaning service", "Schedule water test", "Balance pool chemicals",
+        "Inspect pool filters", "Pool cleaning plan", "Clean pool efficiently", "Pool maintenance check",
+        "Schedule cleaning service", "Pool inspection today", "Water testing service", "Filter inspection service",
+        "Pump service required", "Chemical adjustment service", "Deep pool cleaning", "Weekly pool maintenance schedule",
+        "Monthly pool cleaning plan", "Check pool heater", "Inspect pool equipment today", "Pool chemical service request",
+        "Service pool equipment"
+      ],
+      "responses": [
+        "We offer weekly cleanings, chemical balancing, filter maintenance, and equipment checks.",
+        "Yes! We can clean your pool, check your pump, and balance chemicals — just let me know what you’d like scheduled.",
+        "We handle all types of pool maintenance. Would you like to schedule a visit?"
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does cleaning cost?", "What are your rates?", "Do you charge per visit?", "Is there a monthly plan?",
+        "How much for chemical service?", "Price for weekly cleaning?", "Cost of pool maintenance?", "Cleaning fees?",
+        "Maintenance pricing", "Service charges", "Weekly rate?", "Monthly rate?", "Chemical balancing cost?", "Equipment service cost?",
+        "Pool cleaning cost?", "How much for vacuuming?", "Filter cleaning price?", "Pump inspection fee?", "Deep cleaning cost?",
+        "Algae removal price?", "Tile cleaning cost?", "Skimming service charge?", "Filter replacement cost?", "Pump maintenance fee?",
+        "Full service cost?", "How much to check chemicals?", "Cost to balance chemicals?", "Cost for pump repair?", "Maintenance visit price?",
+        "Cleaning rate?", "Pricing for pool service?", "Charge for pool check?", "Service cost?", "Fees for weekly cleaning?", "Rates for monthly service?",
+        "Cost for pool inspection?", "Vacuuming fees?", "Water testing cost?", "Heater check price?", "Equipment inspection fee?", "Chemical service charge?",
+        "Price estimate?", "Rate per visit?", "Service cost estimate?", "Maintenance fees?", "Pool service pricing?", "Cleaning quote?", "Pool maintenance quote?",
+        "Chemical check cost?", "Filter service fee?", "Cost of full pool service?", "Charge for pool maintenance?", "Price for regular cleaning?", "Cost of service plan?",
+        "Weekly visit price?", "Monthly plan cost?", "Charge for vacuuming?", "Pool check cost?", "Equipment service price?", "Algae removal fee?", "Tile cleaning price?",
+        "Filter inspection cost?", "Pump service price?", "Chemical adjustment fee?", "Deep clean service cost?", "Total service cost?", "Cleaning charge?",
+        "Price for pool maintenance visit?", "Chemical test price?", "Maintenance plan rate?", "Pool cleaning quote?", "Weekly service cost?", "Monthly cleaning fees?",
+        "Vacuuming cost?", "Service visit cost?", "Equipment check cost?", "Pool chemical cost?", "Water balance cost?", "Check pump cost?", "Check filter price?",
+        "Deep pool cleaning rate?", "Weekly maintenance cost?", "Monthly service rate?", "Price for filter cleaning?", "Cost to check heater?", "Cost to test water?", "Maintenance visit charge?"
+      ],
+      "responses": [
+        "Our weekly cleaning services start at $75 per visit.",
+        "We offer flexible plans depending on your pool size and service frequency.",
+        "I can connect you with a rep to get an exact quote — what’s your zip code?"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "My pool is still dirty after cleaning", "The technician didn’t show up", "I was overcharged",
+        "Something went wrong with my last service", "I'm not happy with the service", "Pool is cloudy", "Water is green",
+        "Filter didn't work", "Pump is broken", "Heater not working", "Chlorine levels wrong", "Cleaning incomplete",
+        "Debris left behind", "Water is not clear", "Algae growth", "Chemical imbalance", "Pool surface dirty",
+        "Skimmer clogged", "Pump failed", "Filter replacement needed", "Maintenance missed", "Incorrect billing",
+        "Late arrival", "Technician no-show", "Pool still dirty", "Incomplete service", "Problem not resolved",
+        "Overcharged for service", "Wrong chemicals used", "Service not satisfactory", "Pool issues unresolved",
+        "Unhappy with cleaning", "Complaint about maintenance", "Water not balanced", "Pool looks bad", "Service not done correctly",
+        "Unfulfilled service", "Technician issue", "Chemical imbalance after service", "Pump still not working", "Pool still dirty today",
+        "Filter issue persists", "Heater issue", "Water cloudy after cleaning", "Pool not maintained properly", "Service failure",
+        "Unresolved complaint",         "Water cloudy after cleaning", "Pool not maintained properly", "Service failure", "Unresolved complaint",
+        "Technician didn't fix problem", "Billing issue", "Incorrect service charge", "Pool equipment not checked",
+        "Service incomplete", "Complaint not addressed", "Follow-up needed", "Unhappy with last visit", "Chemical imbalance persists",
+        "Pump not fixed", "Filter still dirty", "Algae not removed", "Pool looks messy", "Water level wrong", "Cleaning skipped",
+        "Service disruption", "Equipment left broken", "Pool debris remains", "Technician rude", "Water not clear after cleaning",
+        "Service quality poor", "Incorrect service performed", "Late service", "No response to complaint", "Follow-up ignored",
+        "Problem still exists", "Complaint unresolved", "Service delayed", "Pump not functioning", "Filter not serviced",
+        "Water cloudy post-service", "Equipment malfunction not fixed", "Pool chemicals wrong", "Technician missed steps",
+        "Cleaning partially done", "Algae still present", "Chemical levels off", "Pool not skimmered", "Vacuuming incomplete",
+        "Service expectations not met", "Maintenance plan not followed", "Billing dispute", "Service promises broken",
+        "Water test skipped", "Technician error", "Pool dirty again", "Equipment check skipped", "Follow-up incomplete",
+        "Service staff error", "Pool maintenance poor", "Chemical service incomplete", "Pump inspection missed",
+        "Filter cleaning skipped", "Service request ignored", "Complaint mishandled", "Customer dissatisfied", "Service not thorough",
+        "Technician late", "Cleaning not done well", "Pool hygiene poor", "Equipment issue unresolved", "Water chemistry off",
+        "Algae removal failed", "Service plan not implemented", "Maintenance tasks incomplete", "Cleaning quality low",
+        "Water clarity problem", "Pool looks neglected", "Service oversight", "Pool still unclean", "Maintenance request not fulfilled",
+        "Pool condition poor", "Technician failed to follow instructions", "Complaint not resolved", "Service below expectations",
+        "Pool debris not removed", "Filter problem persists", "Pump not repaired", "Service incomplete today", "Follow-up missing",
+        "Customer service failure", "Cleaning subpar", "Pool maintenance substandard", "Chemical levels incorrect", "Equipment check incomplete"
+      ],
+      "responses": [
+        "I’m really sorry to hear that. Could you please share your service date so we can look into it?",
+        "Apologies for the inconvenience — I’ll make sure your issue gets to the right team.",
+        "That’s not the experience we want you to have. Can you provide your name and last service date?"
+      ]
+    },
+    {
+      "tag": "scheduling",
+      "patterns": [
+        "Can I book a cleaning?", "Schedule a maintenance visit", "When is your next available appointment?", "I want to reschedule my service",
+        "Can I change my appointment?", "Book a pool service", "Arrange a cleaning", "Schedule pool checkup", "Reschedule visit",
+        "Next available slot?", "Available appointment times?", "Book today", "Schedule this week", "Reschedule maintenance",
+        "Pool cleaning booking", "Set up pool service", "Appointment scheduling", "Change my service date", "Available cleaning times",
+        "Book weekly service", "Reserve maintenance slot", "Request appointment", "Pool visit schedule", "Arrange technician visit",
+        "Schedule inspection", "Book pump check", "Maintenance scheduling", "Book chemical service", "Set up pool visit",
+        "Schedule service", "Booking a cleaning", "Appointment request", "Set service time", "Reschedule cleaning", "Next service slot",
+        "Check appointment availability", "Pool service booking", "Arrange weekly maintenance", "Book filter cleaning",
+        "Schedule vacuuming", "Maintenance visit booking", "Book a technician", "Set appointment date", "Schedule inspection visit",
+        "Reserve cleaning time", "Pool checkup booking", "Book service today", "Set date for maintenance", "Reserve maintenance slot",
+        "Check next available visit", "Arrange next cleaning", "Schedule pool chemical check", "Booking a visit", "Request next maintenance",
+        "Reserve a pool service", "Set up cleaning", "Book pool inspection", "Change appointment date", "Next cleaning time",
+        "Schedule regular visit", "Book pool cleaning session", "Set maintenance appointment", "Arrange weekly service",
+        "Reserve service visit", "Schedule deep cleaning", "Book equipment inspection", "Arrange service check", "Next available cleaning",
+        "Set date for cleaning", "Schedule pump maintenance", "Book filter service", "Reserve inspection visit", "Arrange chemical balancing",
+        "Request cleaning session", "Schedule weekly visit", "Book technician visit", "Set pool service schedule", "Arrange pool check",
+        "Reserve vacuum service", "Schedule debris removal", "Book pool service visit", "Set appointment for maintenance", "Next maintenance slot",
+        "Reserve weekly cleaning", "Schedule follow-up visit", "Book routine maintenance", "Arrange next pool service", "Set up cleaning appointment",
+        "Schedule repair visit", "Book pool check", "Reserve service today", "Arrange weekly cleaning", "Set maintenance check", "Book chemical service visit",
+        "Reserve pool cleaning time", "Schedule inspection session", "Book vacuuming visit", "Set technician appointment", "Arrange maintenance today"
+      ],
+      "responses": [
+        "Sure! What day and time work best for you?",
+        "I can help schedule your next visit — what service do you need?",
+        "Let’s get you booked. What’s your preferred date?"
+      ]
+    },
+    {
+      "tag": "equipment_issue",
+      "patterns": [
+        "My pump isn’t working", "The filter is leaking", "My heater won’t start", "The water flow is low", "Something’s wrong with my system",
+        "Pump broken", "Filter clogged", "Heater malfunction", "Low water circulation", "Equipment failure", "Pump noise", "Filter problem",
+        "Heater not heating", "Pump not running", "Filter leaking", "Equipment needs repair", "Pump not starting", "Filter replacement needed",
+        "Heater not turning on", "Water flow issue", "Pump issue", "Filter malfunction", "Heater issue", "System not working", "Pump stuck",
+        "Filter broken", "Heater broken", "Water circulation problem", "Pump failure", "Filter needs maintenance", "Heater failure",
+        "Pump not functioning", "Filter check required", "Heater inspection", "Water flow low", "Pump service needed", "Filter cleaning required",
+        "Heater repair needed", "Pump not operational", "Filter problem persists", "Heater check", "Equipment inspection needed", "Pump replacement needed",
+        "Filter not working", "Heater not operating", "Low pump output", "Filter issue", "Heater not heating properly", "Pump motor issue",
+        "Filter blockage", "Heater repair required", "Pump leaking", "Filter cleaning needed", "Heater malfunctioning", "Water circulation low",
+        "Pump problem persists", "Filter needs repair", "Heater not functioning", "Pump troubleshooting", "Filter inspection", "Heater troubleshooting",
+        "Pump not pumping", "Filter not filtering", "Heater inspection needed", "Pump issues", "Filter issues", "Heater issues",
+        "Pump maintenance required", "Filter maintenance needed", "Heater maintenance required", "Pump operational problem", "Filter operational problem",
+        "Heater operational problem", "Pump replacement required", "Filter replacement required", "Heater replacement needed", "Pump check needed",
+        "Filter check needed", "Heater check needed", "Pump motor replacement", "Filter motor replacement", "Heater motor replacement",
+        "Pump not responding", "Filter not responding", "Heater not responding", "Pump alarm", "Filter alarm", "Heater alarm",
+        "Pump sensor issue", "Filter sensor issue", "Heater sensor issue", "Pump not calibrated", "Filter not calibrated", "Heater not calibrated",
+        "Pump system failure", "Filter system failure", "Heater system failure", "Pump problem today", "Filter problem today", "Heater problem today",
+        "Pump not working properly", "Filter not working properly", "Heater not working properly", "Pump issue detected", "Filter issue detected", "Heater issue detected"
+      ],
+      "responses": [
+        "We can send a technician to diagnose your equipment issue.",
+        "It sounds like an equipment problem — can you describe what’s happening?",
+        "We handle repairs for pumps, filters, and heaters. Would you like to schedule a check-up?"
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Do you sell pool chemicals?", "Do you have chlorine tablets?", "What products do you use?", "Can I buy supplies from you?", "Do you offer pool covers?",
+        "Pool chemicals available?", "Chlorine availability?", "Supplies for pool?", "Can I purchase products?", "Products you sell?", "Chemical products?",
+        "Pool supplies?", "Chlorine tablets available?", "Cover options?", "Where to buy chemicals?", "Can I order supplies?", "Products available?",
+        "Pool maintenance products?", "Chemical supplies?", "Pool accessories?", "Where to get chemicals?", "Buy chlorine?", "Purchase pool chemicals?",
+        "Stock of chemicals?", "Pool chemical sales?", "Supplies in stock?", "Order chemicals?", "Buy pool supplies?", "Products for sale?", "Available pool products?",
+        "Chemical options?", "Pool chemical store?", "Pool items available?", "Chlorine products?", "Pool chemical list?", "Order pool products?", "Buy chlorine tablets?",
+        "Chemical service products?", "Pool maintenance items?", "Pool equipment for sale?", "Pool chemicals inventory?", "Where to buy pool supplies?",
+        "Purchase chlorine?", "Pool products list?", "Stock pool chemicals?", "Pool accessories for sale?", "Order chlorine?", "Pool product options?",
+        "Pool supply list?", "Pool chemical availability?", "Where to get pool products?", "Buy pool chemicals online?", "Pool chemical order?", "Purchase pool accessories?",
+        "Order pool supplies?", "Pool chemical delivery?", "Available pool chemicals?", "Pool products delivery?", "Pool chemical purchase?", "Chlorine order?",
+        "Chemical supply for pool?", "Pool maintenance chemicals?", "Pool cleaning products?", "Chemical purchase options?", "Pool supply purchase?", "Order pool chemicals?",
+        "Where to buy pool accessories?", "Buy pool maintenance products?", "Pool chemicals needed?", "Pool chemical shop?", "Pool products available online?", "Chlorine supply available?",
+        "Pool cleaning chemicals?", "Chemical products for pool?", "Pool chemical options?", "Order chlorine tablets?", "Pool product order?", "Pool supply options?",
+        "Chemical stock for pool?", "Pool chemical procurement?", "Pool maintenance supplies?", "Pool product shopping?", "Pool chemical vendors?", "Pool supply vendors?",
+        "Chlorine purchase options?", "Pool chemical catalog?", "Order pool chemicals today?", "Pool product store?", "Pool chemical marketplace?", "Buy pool products?",
+        "Pool supply order?", "Pool chemical purchase options?", "Order pool maintenance chemicals?", "Pool cleaning supply order?", "Pool chemicals online?"
+      ],
+      "responses": [
+        "Yes, we sell pool chemicals and cleaning supplies!",
+        "We can deliver chlorine, acid, and balancing chemicals directly.",
+        "We use top-rated products — would you like to order some?"
+      ]
+    },
+    {
+      "tag": "other",
+      "patterns": [
+        "Thanks", "That’s all", "Never mind", "I don’t know", "Something else", "No thanks", "All good", "Forget it", "Not sure",
+        "Maybe later", "I’m done", "Nothing else", "All set", "No more questions", "No further requests", "That’s fine",
+        "No problem", "All okay", "Nothing needed", "I’ll pass", "No action required", "Done for now", "All taken care of",
+        "Nothing more", "Not necessary", "Never mind that", "Skip it", "No thanks needed", "Not important", "Ignore that",
+        "That’s unnecessary", "Leave it", "No further info", "Nothing else needed", "All sorted", "Done", "I have no more questions",
+        "Nothing else today", "All clear", "No action needed", "Skip this", "Not required", "No further action", "No need",
+        "That will do", "No more info", "All finished", "No further help needed", "I’m finished", "Nothing further", "That’s okay",
+        "No more tasks", "All done", "Not needed", "No extra", "That’s sufficient", "I don’t need more", "Nothing additional",
+        "All complete", "No more requests today", "No further details", "Nothing left", "Done here", "That’s enough", "No further work",
+        "I don’t require more", "All handled", "Nothing else required", "No further input", "I’m all set", "That will suffice",
+        "No further questions", "Nothing else to add", "All handled properly", "That’s satisfactory", "No more info needed", "All okay then",
+        "I don’t want more", "Nothing else pending", "That’s perfect", "No additional help", "All taken care of now", "I’m good", "Nothing left to say",
+        "No further steps needed", "All resolved", "I’m satisfied", "No need for more", "Nothing extra needed", "All addressed", "I have no requests",
+        "No more requirements", "All completed", "I’m okay", "Nothing outstanding", "No extra info", "All done now", "That works", "Nothing else to discuss"
+      ],
+      "responses": [
+        "No problem! Let me know if you need anything else.",
+        "Glad I could help — have a great day!",
+        "Alright! If you think of anything else, just message us."
+      ]
+    }
+  ]
+}
+

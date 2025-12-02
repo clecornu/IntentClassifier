@@ -1,0 +1,42 @@
+{
+  "greeting": [
+    "Hello! How can I help you with your pool today?",
+    "Hi there! Need help scheduling a cleaning or maintenance?",
+    "Hey! What can I do for your pool today?"
+  ],
+  "Service": [
+    "We offer weekly cleanings, chemical balancing, filter maintenance, and equipment checks.",
+    "Yes! We can clean your pool, check your pump, and balance chemicals \u2014 just let me know what you\u2019d like scheduled.",
+    "We handle all types of pool maintenance. Would you like to schedule a visit?"
+  ],
+  "pricing": [
+    "Our weekly cleaning services start at $75 per visit.",
+    "We offer flexible plans depending on your pool size and service frequency.",
+    "I can connect you with a rep to get an exact quote \u2014 what\u2019s your zip code?"
+  ],
+  "complaint": [
+    "I\u2019m really sorry to hear that. Could you please share your service date so we can look into it?",
+    "Apologies for the inconvenience \u2014 I\u2019ll make sure your issue gets to the right team.",
+    "That\u2019s not the experience we want you to have. Can you provide your name and last service date?"
+  ],
+  "scheduling": [
+    "Sure! What day and time work best for you?",
+    "I can help schedule your next visit \u2014 what service do you need?",
+    "Let\u2019s get you booked. What\u2019s your preferred date?"
+  ],
+  "equipment_issue": [
+    "We can send a technician to diagnose your equipment issue.",
+    "It sounds like an equipment problem \u2014 can you describe what\u2019s happening?",
+    "We handle repairs for pumps, filters, and heaters. Would you like to schedule a check-up?"
+  ],
+  "product_inquiry": [
+    "Yes, we sell pool chemicals and cleaning supplies!",
+    "We can deliver chlorine, acid, and balancing chemicals directly.",
+    "We use top-rated products \u2014 would you like to order some?"
+  ],
+  "other": [
+    "No problem! Let me know if you need anything else.",
+    "Glad I could help \u2014 have a great day!",
+    "Alright! If you think of anything else, just message us."
+  ]
+}
